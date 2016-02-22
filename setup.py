@@ -24,6 +24,5 @@ setup(
     description='Cloudify psutil monitoring plugin for Windows',
     packages=['psutil_agent'],
     install_requires=['cloudify-plugins-common>=3.3',
-                      'pika==0.9.14',
-                      'psutil==3.3.0']
+                      'pika==0.9.14']
 )
